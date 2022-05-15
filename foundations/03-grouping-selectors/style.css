@@ -3,10 +3,12 @@
 * **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` 
 as a fallback  */
 
-* {
+.button-one, .button-two {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
+/* As a correction, * selects all elements in a page, and therefore, isn't the best fit for this task even though it 
+suffices in this situation. Hence, it should be changed. */
 
 .button-one {
     background-color: #000000;
